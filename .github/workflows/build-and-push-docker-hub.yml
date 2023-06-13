@@ -1,6 +1,6 @@
 name: Build, Push, Ssh, Pull, Down, Up
 
-on: [pull_request]
+on: [push]
 
 jobs:
   build-and-push:
