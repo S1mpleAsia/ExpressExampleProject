@@ -1,9 +1,6 @@
 name: Build, Push, Ssh, Pull, Down, Up
 
-on:
-  push:
-    branches:
-      - 'staging'
+on: [push]
 
 jobs:
   build-and-push:
@@ -32,7 +29,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: bsignbkc/express-sample-project:staging
+          tags: s1mpleasia/express-example-project:latest
 
 
   pull-and-up:
