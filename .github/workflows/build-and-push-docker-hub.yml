@@ -29,7 +29,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: s1mpleasia/express-example-project:latest
+          tags: s1mpleasia/express-example-project:demo
 
 
   pull-and-up:
